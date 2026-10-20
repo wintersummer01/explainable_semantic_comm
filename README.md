@@ -6,11 +6,6 @@ the Swin Transformer backbone used in the paper, a stage-matched CNN baseline,
 linear classification probes, selective fine-tuning models, and a compact
 OFDM simulation extracted from the accompanying prototype.
 
-This public version deliberately excludes checkpoints, datasets, experiment
-logs, generated figures, one-off plotting scripts, and seed/candidate-search
-utilities. A normal `--seed` option remains for reproducibility; it does not
-select results.
-
 ## What is included
 
 - `model/deep_JSCC.py`: Swin and CNN JSCC codecs.
